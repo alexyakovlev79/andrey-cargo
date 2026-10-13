@@ -2,6 +2,7 @@ name: Publish demonstration website
 on:
   push:
     branches: [main]
+    paths: ['index.html', 'styles.css', 'app.js', 'assets/**', '.github/workflows/pages.yml']
   workflow_dispatch:
 permissions:
   contents: read
