@@ -13,7 +13,7 @@ const path = require('node:path');
    const errors = [];
    page.on('pageerror', error => errors.push(error.message));
    await page.goto(pathToFileURL(path.resolve('index.html')).href);
-   await page.evaluate(async () => { await Promise.all([...document.images].map(im => im.decode())); });
+   await page.evaluate(async () => { document.images.forEach?.(() => {}); const images = [...document.images]; images.forEach(im => im.loading = 'eager'); await Promise.race([Promise.all(images.map(im => im.decode())), new Promise((_, reject) => setTimeout(() => reject(new Error('Images did not load within 15 seconds')),15000))]); });
    const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
    assert.equal(overflow,false, `${name}: horizontal overflow`);
    assert.equal(await page.locator('h1').count(),1);
@@ -28,7 +28,6 @@ const path = require('node:path');
    if (name === 'mobile') {
     await page.locator('.menu-toggle').click();
     assert.equal(await page.locator('#navigation').isVisible(),true);
-    await page.locator('#navigation a[href="#quote"]').count();
     await page.keyboard.press('Escape');
     assert.equal(await page.locator('#navigation').isVisible(),false);
    }
