@@ -306,9 +306,9 @@
     .radios{flex-wrap:wrap;gap:10px}
     .radios label{flex-basis:100%}
     .btn{padding:15px 20px}
-    .fab{right:12px;bottom:12px;gap:8px}
+    .fab{position:static;flex-direction:row;justify-content:center;gap:12px;padding:0 16px 24px;background:var(--bg-2)}
     .fab a{width:44px;height:44px}
-    footer{padding-bottom:84px}
+    footer{padding-bottom:30px}
     .dialog-content{padding:24px 18px}
     .dialog-actions .btn{width:100%}
     .dialog-content h2{font-size:22px}
