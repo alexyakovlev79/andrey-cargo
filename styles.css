@@ -314,3 +314,7 @@
     .dialog-content h2{font-size:22px}
   }
   @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+  .logo .txt{min-width:0}
+  .fab img{display:block;width:30px;height:30px}
+  .socs img{display:block;width:24px;height:24px}
