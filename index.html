@@ -1,74 +1,382 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Китай Логистика 765 | Доставка грузов из Китая</title>
-  <meta name="description" content="Выкуп, проверка, упаковка и доставка товаров из Китая. 5 вариантов перевозки, склады в Иу и Гуанчжоу. Рассчитайте доставку своего груза.">
-  <meta name="robots" content="noindex, nofollow">
-  <meta name="theme-color" content="#102b30">
-  <link rel="icon" href="assets/logo.png"><link rel="stylesheet" href="styles.css">
-  <script src="app.js" defer></script>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="assets/logo.png">
+<meta name="theme-color" content="#070b14">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Китай Логистика 765 — Доставка грузов из Китая в Россию под ключ</title>
+<meta name="description" content="Выкуп товаров, поиск поставщиков и доставка грузов из Китая по всей России: ЖД, авиа, авто. Проверка на брак, договор, оплата после прибытия. 8 лет опыта.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
 </head>
 <body>
-<a class="skip" href="#main">К основному содержимому</a>
-<header class="header">
- <div class="wrap header-inner">
-  <a class="brand" href="#" aria-label="Китай Логистика 765, главная"><img src="assets/logo.png" alt="Оригинальный логотип Китай Логистика 765" width="64" height="64"><span>КИТАЙ ЛОГИСТИКА <b>765</b><small>ГРУЗЫ ИЗ КИТАЯ В РОССИЮ</small></span></a>
-  <button class="menu-toggle" aria-label="Открыть меню" aria-controls="navigation" aria-expanded="false"><span></span><span></span></button>
-  <nav id="navigation" aria-label="Основная навигация"><a href="#delivery">Тарифы</a><a href="#services">Услуги</a><a href="#process">Как работаем</a><a href="#about">О компании</a><a href="#contacts">Контакты</a></nav>
-  <a class="header-phone" href="tel:+79263039500">+7 926 303-95-00<small>ПН–СБ, 9:00–21:00</small></a>
- </div>
+<div class="blob a"></div><div class="blob b"></div><div class="blob c"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="wrap nav">
+    <a href="#" class="logo">
+      <span class="mark">765</span>
+      <span class="txt">Китай Логистика<small>CARGO · CHINA → RUSSIA</small></span>
+    </a>
+    <nav class="menu">
+      <a href="#delivery">Виды доставки</a>
+      <a href="#process">Как мы работаем</a>
+      <a href="#guarantees">Гарантии</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+79263039500" class="nav-phone grad-text">+7 (926) 303-95-00</a>
+      <a href="#lead" class="btn btn-primary">Рассчитать доставку</a>
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-controls="mobileMenu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Мобильная навигация" inert>
+    <a href="#delivery">Виды доставки</a>
+    <a href="#process">Как мы работаем</a>
+    <a href="#guarantees">Гарантии</a>
+    <a href="#reviews">Отзывы</a>
+    <a href="#contacts">Контакты</a>
+    <a href="tel:+79263039500">+7 (926) 303-95-00</a>
+    <a href="#lead" class="btn btn-primary">Рассчитать доставку</a>
+  </nav>
 </header>
-<main id="main">
- <section class="hero">
+
+<!-- HERO -->
+<section class="hero">
   <div class="wrap hero-grid">
-   <div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> ОТ ПОСТАВЩИКА ДО ВАШЕГО СКЛАДА</p>
-    <h1>Ваш груз из Китая.<br><em>Ваша следующая<br>поставка.</em></h1>
-    <p class="intro">Найдем поставщика, выкупим товар, проверим и доставим. В Москву и дальше, в любой город России.</p>
-    <div class="hero-actions"><a class="button primary" href="#quote">Рассчитать доставку <span>↗</span></a><a class="text-link" href="#delivery">Выбрать тариф <span>↓</span></a></div>
-    <div class="hero-benefits"><span>Выкуп и проверка товара</span><span>Документальное оформление</span><span>Склады в Китае и Москве</span></div>
-   </div>
-   <div class="hero-visual"><img class="port" src="assets/port.webp" alt="Контейнерный терминал с портовыми кранами и грузовыми судами" width="2048" height="1152" fetchpriority="high">
-    <div class="visual-top"><span>КИТАЙ → РОССИЯ</span><span class="visual-number">765</span></div>
-    <div class="route"><span class="route-point">Иу / Гуанчжоу</span><span class="route-line"></span><span class="route-point">Москва</span></div>
-    <div class="rate-stamp"><span class="tiny-label">ЖЕЛЕЗНОДОРОЖНАЯ ДОСТАВКА</span><strong>от 0,3 <span>$ / кг</span></strong><span>35–40 дней <b>↗</b></span></div>
-   </div>
+    <div>
+      <span class="badge"><span class="dot"></span>Работаем с 2018 года · склады в Иу и Гуанчжоу</span>
+      <h1>Доставка грузов <span class="grad-text">из Китая</span> в Россию под ключ</h1>
+      <p class="lead">Выкупаем товар, находим поставщика, проверяем на брак и доставляем ЖД, авиа или авто в любой город России, Казахстана и Беларуси. Полное документальное оформление — берём всё на себя.</p>
+      <div class="hero-cta">
+        <a href="#lead" class="btn btn-primary">Рассчитать стоимость →</a>
+        <a href="#supplier" class="btn btn-ghost">Найти поставщика</a>
+      </div>
+      <div class="hero-stats">
+        <div class="s"><b class="grad-text">8 лет</b><span>опыта в карго</span></div>
+        <div class="s"><b class="grad-text">100%</b><span>точно в срок</span></div>
+        <div class="s"><b class="grad-text">от 0,3 $</b><span>за кг (ЖД)</span></div>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h3>Ваш груз — наша ответственность</h3>
+      <p class="sub">Один менеджер ведёт вас от заявки до получения</p>
+      <div class="route">
+        <div class="city">КИТАЙ<span>Иу · Гуанчжоу</span></div>
+        <div class="line"></div>
+        <div class="city" style="text-align:right">РОССИЯ<span>Москва · вся РФ</span></div>
+      </div>
+      <div class="mini">
+        <div><b>Выкуп</b><span>товара</span></div>
+        <div><b>Проверка</b><span>на брак</span></div>
+        <div><b>Договор</b><span>поставки</span></div>
+      </div>
+      <a href="#lead" class="btn btn-gold" style="width:100%;justify-content:center;margin-top:16px">Получить расчёт за 1 день</a>
+    </div>
   </div>
- </section>
- <section class="proof-strip" aria-label="Компания в цифрах"><div class="wrap proof-grid"><div><strong>8 <span>лет</span></strong><p>опыта в логистике</p></div><div><strong>5</strong><p>вариантов доставки</p></div><div><strong>3</strong><p>страны доставки: Россия,<br>Казахстан и Беларусь</p></div><div class="proof-message"><span class="tiny-label">ОДНА ПОСТАВКА. ВСЕ ЭТАПЫ.</span><p>От поиска товара в Китае<br>до получения в вашем городе.</p></div></div></section>
- <section id="delivery" class="section wrap">
-  <div class="section-heading"><div><p class="eyebrow">01 / СПОСОБЫ ДОСТАВКИ</p><h2>Под ваш груз.<br>Под ваши сроки.</h2></div><p class="section-intro">5 вариантов перевозки, чтобы выбрать подходящее соотношение цены и скорости.</p></div>
-  <div class="tariff-tabs" role="group" aria-label="Фильтр тарифов"><button class="active" data-filter="all" aria-pressed="true">Все варианты</button><button data-filter="budget" aria-pressed="false">Экономичнее</button><button data-filter="fast" aria-pressed="false">Быстрее</button></div>
-  <div class="tariff-grid">
-   <article class="tariff" data-kind="budget"><div class="tariff-head"><span class="tariff-index">01</span><span class="tag">Для плановых поставок</span></div><div class="transport" aria-hidden="true">Ж/Д</div><h3>Железная дорога</h3><p>Генеральные грузы и контейнерные перевозки.</p><div class="tariff-bottom"><div class="price">от <strong>0,3</strong> $ / кг</div><div class="days">35–40 дней</div><button data-mode="Железная дорога" class="tariff-link">Рассчитать этот вариант <span>↗</span></button></div></article>
-   <article class="tariff" data-kind="budget"><div class="tariff-head"><span class="tariff-index">02</span><span class="tag">Автомобильная доставка</span></div><div class="transport" aria-hidden="true">АВТО</div><h3>Авто обычное</h3><p>Когда стоимость важнее скорости доставки.</p><div class="tariff-bottom"><div class="price">от <strong>1</strong> $ / кг</div><div class="days">25–30 дней</div><button data-mode="Авто обычное" class="tariff-link">Рассчитать этот вариант <span>↗</span></button></div></article>
-   <article class="tariff featured" data-kind="fast"><div class="tariff-head"><span class="tariff-index">03</span><span class="tag">Баланс цены и срока</span></div><div class="transport" aria-hidden="true">АВТО</div><h3>Авто быстрое</h3><p>Для поставок с более коротким сроком.</p><div class="tariff-bottom"><div class="price">от <strong>1,4</strong> $ / кг</div><div class="days">15–22 дня</div><button data-mode="Авто быстрое" class="tariff-link">Рассчитать этот вариант <span>↗</span></button></div></article>
-   <article class="tariff" data-kind="fast"><div class="tariff-head"><span class="tariff-index">04</span><span class="tag">Срочная поставка</span></div><div class="transport" aria-hidden="true">ЭКСПРЕСС</div><h3>Авто экспресс</h3><p>Быстрая автомобильная перевозка груза.</p><div class="tariff-bottom"><div class="price">от <strong>1,8</strong> $ / кг</div><div class="days">8–13 дней</div><button data-mode="Авто экспресс" class="tariff-link">Рассчитать этот вариант <span>↗</span></button></div></article>
-   <article class="tariff" data-kind="fast"><div class="tariff-head"><span class="tariff-index">05</span><span class="tag">Самый быстрый вариант</span></div><div class="transport" aria-hidden="true">АВИА</div><h3>Авиадоставка</h3><p>Для грузов, которые нужны в ближайшие дни.</p><div class="tariff-bottom"><div class="price">от <strong>8</strong> $ / кг</div><div class="days">2–7 дней</div><button data-mode="Авиадоставка" class="tariff-link">Рассчитать этот вариант <span>↗</span></button></div></article>
+
+  <div class="wrap">
+    <div class="trust">
+      <div class="row">
+        <div class="item">✅ Проверка на брак и пересчёт</div>
+        <div class="item">📄 Документальное оформление</div>
+        <div class="item">🤝 Договор поставки</div>
+        <div class="item">💰 Оплата доставки по прибытии в Москву</div>
+        <div class="item">📦 Своя экспортная упаковка</div>
+        <div class="item">🛡 Страхование груза</div>
+      </div>
+    </div>
   </div>
-  <p class="tariff-note">Указаны начальные тарифы. Итоговый расчет зависит от категории товара, веса, объема, маршрута, страховки и упаковки. Условия вашей поставки согласуем индивидуально.</p>
- </section>
- <section id="services" class="services section"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">02 / ПОМОГАЕМ НА КАЖДОМ ЭТАПЕ</p><h2>Больше, чем перевозка.</h2></div><a class="text-link" href="#quote">Обсудить поставку <span>↗</span></a></div>
-  <div class="services-grid"><article><span class="service-icon">↗</span><h3>Поиск и выкуп</h3><p>Найдем поставщика по вашему товару. Сравним предложения по 5 критериям и отправим файл с лучшими вариантами на почту или в Telegram.</p><a href="#quote" data-service="Нужен поиск поставщика">Мне нужен поставщик ↗</a></article><article><span class="service-icon">✓</span><h3>Проверка и упаковка</h3><p>Проверим товар на брак, пересчитаем и подготовим к отправке. При необходимости сделаем дополнительную проверку, переупаковку, обрешетку или влагозащитную упаковку.</p></article><article><span class="service-icon">≡</span><h3>Документы и договор</h3><p>Оформим документы для перевозки через границу. При необходимости заключим договор поставки или купли-продажи. Оплата наличным или безналичным расчетом.</p></article><article><span class="service-icon">→</span><h3>Доставка до вашего города</h3><p>Груз приходит на склад в Москве. Организуем дальнейшую доставку по России, а также в Казахстан и Беларусь. Можно оформить страхование груза.</p></article></div>
- </div></section>
- <section id="process" class="section wrap"><div class="section-heading"><div><p class="eyebrow">03 / КАК ВСЕ ПРОИСХОДИТ</p><h2>От первой заявки<br>до получения груза.</h2></div><p class="section-intro">Поставщик уже есть или его еще нужно найти? Подключимся на нужном вам этапе.</p></div>
-  <div class="steps"><article><span>01</span><h3>Заявка и поставщик</h3><p>Вы присылаете информацию о товаре. Работаем с вашим поставщиком или помогаем найти нового.</p></article><article><span>02</span><h3>Инвойс и расчет</h3><p>Получаем инвойс и рассчитываем стоимость в рублях. Поставщик отправляет товар на наш склад в Китае.</p></article><article><span>03</span><h3>Оплата и подготовка</h3><p>Вы оплачиваете товар. На складе проверяем, пересчитываем и упаковываем груз; соблюдаем условия хранения и температуру.</p></article><article><span>04</span><h3>Отправка и получение</h3><p>Перевозим груз согласованным способом. За день до прибытия в Москву уведомляем вас и согласуем получение.</p></article></div>
-  <div class="process-note"><strong>Оплата доставки после прибытия</strong><p>При необходимости доступна по согласованию. Срок и способ перевозки каждой партии рассчитываем индивидуально.</p><a href="#quote" aria-label="Обсудить оплату доставки после прибытия">↗</a></div>
- </section>
- <section id="quote" class="quote-section"><div class="wrap quote-layout"><div class="quote-copy"><p class="eyebrow">04 / РАСЧЕТ ВАШЕЙ ПОСТАВКИ</p><h2>Что везем<br>из Китая?</h2><p>Выберите параметры груза. Подготовим запрос менеджеру, чтобы обсудить маршрут и получить полный расчет.</p><div class="quote-contact"><span class="tiny-label">МОЖНО СРАЗУ ПОЗВОНИТЬ</span><a href="tel:+79263039500">+7 926 303-95-00</a><span>Понедельник–суббота, 9:00–21:00</span></div></div>
- <form id="quote-form"><div class="form-grid"><label>Что нужно привезти?<select name="category" required><option value="">Выберите категорию</option><option>Одежда и текстиль</option><option>Обувь и аксессуары</option><option>Электроника</option><option>Товары для дома</option><option>Оборудование</option><option>Другой товар</option></select></label><label>Куда доставить?<input name="city" placeholder="Например, Москва" required maxlength="100" autocomplete="address-level2"></label><label>Вес, кг<input name="weight" type="number" step="0.01" min="0.01" max="1000000" placeholder="Если уже известен"></label><label>Объем, м³<input name="volume" type="number" step="0.001" min="0.001" max="10000" placeholder="Если уже известен"></label><label>Способ доставки<select name="mode" id="delivery-mode"><option>Помогите выбрать</option><option>Железная дорога</option><option>Авто обычное</option><option>Авто быстрое</option><option>Авто экспресс</option><option>Авиадоставка</option></select></label><label>Поставщик<select name="supplier" id="supplier"><option>Поставщик уже есть</option><option>Нужен поиск поставщика</option></select></label></div>
-  <fieldset><legend>Дополнительные услуги</legend><div class="checkboxes"><label><input type="checkbox" name="extras" value="Выкуп товара"> Выкуп товара</label><label><input type="checkbox" name="extras" value="Проверка качества и количества"> Проверка товара</label><label><input type="checkbox" name="extras" value="Дополнительная упаковка"> Упаковка</label><label><input type="checkbox" name="extras" value="Страхование"> Страхование</label></div></fieldset>
-  <label class="full-label">Ссылка на товар или детали <textarea name="details" rows="2" maxlength="2000" placeholder="Необязательно: ссылка, название товара или пожелания"></textarea></label>
-  <button class="button primary submit" type="submit">Подготовить запрос <span>↗</span></button><p class="form-note">Бесплатная консультация. Вы сами выберете, как отправить запрос менеджеру.</p>
- </form></div></section>
- <section id="about" class="section wrap"><div class="section-heading"><div><p class="eyebrow">05 / КИТАЙ ЛОГИСТИКА 765</p><h2>На связи по всей<br>цепочке поставки.</h2></div><p class="section-intro">8 лет опыта в логистике и карго-перевозках. Склады в Китае и Москве, доставка по России, в Казахстан и Беларусь.</p></div>
- <div class="about-grid"><div class="about-brand"><img src="assets/brand.webp" alt="Китай Логистика 765" width="300" height="250" loading="lazy"><p>Выкуп. Проверка. Доставка.</p><span>КИТАЙ → МОСКВА → ВАШ ГОРОД</span></div><div class="team"><article><span>АБ</span><div><h3>Баранов Андрей Олегович</h3><small>Руководитель клиентского отдела</small><p>Вопросы доставки, документации и оплаты товара.</p></div></article><article><span>АП</span><div><h3>Петров Александр Сергеевич</h3><small>Менеджер клиентского отдела</small><p>Помощь в поиске поставщика для вашего товара.</p></div></article><article><span>ДМ</span><div><h3>Макеева Дарья Сергеевна</h3><small>Специалист по маркетингу</small><p>Информация о скидках и изменениях тарифов в социальных сетях.</p></div></article><article><span>АП</span><div><h3>Пустовалов Аслан Зумратович</h3><small>Переговоры с китайской стороной</small><p>Помощь в согласовании условий с поставщиком.</p></div></article></div></div>
- <div class="punctuality"><strong>80%<small>груза прибывает раньше срока</small></strong><strong>100%<small>груза приходит точно в срок</small></strong><p>Статистика<br>Китай Логистика 765.</p></div>
- <div class="reviews"><div><p class="eyebrow">ОТЗЫВЫ КЛИЕНТОВ</p><h3>Посмотрите, что пишут о доставке.</h3><p>Отзывы и обсуждения в отдельной группе «Карго 765 ОТЗЫВЫ».</p></div><a class="button secondary" href="https://t.me/+cR1xt2z6E5EyYTY6" target="_blank" rel="noopener">Отзывы в Telegram <span>↗</span></a></div>
- </section>
- <section class="faq section"><div class="wrap faq-layout"><div><p class="eyebrow">06 / ПЕРЕД ПЕРВОЙ ПОСТАВКОЙ</p><h2>Есть вопросы?</h2><a class="text-link" href="tel:+79263039500">Обсудить с менеджером ↗</a></div><div><details><summary>От чего зависит стоимость доставки?</summary><p>От веса и объема, категории товара, города доставки, способа перевозки, страховки, дополнительной проверки и упаковки. Каждую партию рассчитываем индивидуально.</p></details><details><summary>Что делать, если поставщик еще не найден?</summary><p>Пришлите описание товара. Проведем поиск по 5 критериям, подготовим файл с лучшими поставщиками и отправим вам по электронной почте или в личные сообщения Telegram.</p></details><details><summary>Что происходит с товаром на складе в Китае?</summary><p>Товар храним с соблюдением условий и температуры, бережно погружаем, частично проверяем на соответствие и качество. Доступны пересчет, проверка на брак, экспортная упаковка и переупаковка.</p></details><details><summary>Как оплатить товар и доставку?</summary><p>Товар можно оплатить наличным или безналичным расчетом. При необходимости оплату доставки согласуем после прибытия груза. Договор поставки или купли-продажи оформляем по запросу.</p></details><details><summary>Куда можно доставить груз после Москвы?</summary><p>Организуем доставку со склада в Москве в любой город России. Также работаем с доставкой в Казахстан и Беларусь.</p></details></div></div></section>
- <section id="contacts" class="section wrap"><div class="section-heading"><div><p class="eyebrow">07 / СВЯЖЕМСЯ И ОБСУДИМ</p><h2>Начнем с вашей задачи.</h2></div><a class="button primary" href="#quote">Рассчитать поставку <span>↗</span></a></div><div class="contacts-grid"><div class="contact-main"><span class="tiny-label">ЗВОНКИ И КОНСУЛЬТАЦИИ</span><a class="big-phone" href="tel:+79263039500">+7 926 303-95-00</a><p>ПН–СБ, 9:00–21:00</p><a class="email" href="mailto:logistic-company.pro@yandex.ru">logistic-company.pro@yandex.ru</a><div class="social"><a href="https://t.me/CargoChina765" target="_blank" rel="noopener">Telegram ↗</a><a href="https://vk.com/cargochina765" target="_blank" rel="noopener">ВКонтакте ↗</a></div></div><article class="warehouse"><span class="tiny-label">СКЛАД В КИТАЕ / 01</span><h3>Иу</h3><p>№ 1117, Юнцзюнь-роуд, город Иу, город Цзиньхуа, провинция Чжэцзян. Российская грузовая линия (765) во дворе Шенди.</p><span>Контакт: г-н Чжан</span></article><article class="warehouse"><span class="tiny-label">СКЛАД В КИТАЕ / 02</span><h3>Гуанчжоу / Фошань</h3><p>Фошань, район Нанхай, городок Лишуй, деревня Чжоу, складской парк «Да Гуань Цзя», корпус B1, склад № 765.</p><span>Контакт: Ли Вэньцюань</span></article></div></section>
-</main>
-<footer><div class="wrap footer-inner"><a class="brand" href="#"><img src="assets/logo.png" width="55" height="55" alt="Китай Логистика 765"><span>КИТАЙ ЛОГИСТИКА <b>765</b><small>ВЫКУП И ДОСТАВКА ТОВАРОВ</small></span></a><p>Демонстрационная версия нового сайта</p><a href="https://logistic-company.pro/" target="_blank" rel="noopener">Действующий сайт ↗</a></div></footer>
-<dialog id="request-dialog" aria-labelledby="request-title"><div class="dialog-content"><button class="dialog-close" aria-label="Закрыть">×</button><p class="eyebrow">ВАШ ЗАПРОС ПОДГОТОВЛЕН</p><h2 id="request-title">Отправьте его менеджеру.</h2><p>Проверьте детали. Запрос еще не отправлен.</p><textarea id="request-text" rows="9" aria-label="Текст запроса"></textarea><div class="dialog-actions"><button class="button primary" id="copy-request">Скопировать запрос</button><a id="email-request" class="button secondary" href="#">Отправить по почте ↗</a><a class="text-link" href="https://t.me/CargoChina765" target="_blank" rel="noopener">Открыть Telegram ↗</a></div><p id="copy-status" role="status"></p></div></dialog>
-</body></html>
+</section>
+
+<!-- DELIVERY -->
+<section id="delivery">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Тарифы</div>
+      <h2 class="sec-title">Виды доставки вашего груза</h2>
+      <p class="sec-sub">Способ перевозки рассчитываем индивидуально — исходя из категории товара, веса, объёма и нужного срока. Подберём оптимальный баланс цена / скорость.</p>
+    </div>
+    <div class="deliv">
+      <div class="dcard reveal">
+        <div class="ico">🚆</div>
+        <h3>Ж/Д</h3>
+        <div class="term">35–40 дней</div>
+        <div class="price">от 0,3 $ <span>/ кг</span></div>
+      </div>
+      <div class="dcard reveal">
+        <div class="ico">🚚</div>
+        <h3>Авто обычное</h3>
+        <div class="term">25–30 дней</div>
+        <div class="price">от 1 $ <span>/ кг</span></div>
+      </div>
+      <div class="dcard feat reveal">
+        <span class="tag">ХИТ</span>
+        <div class="ico">⚡</div>
+        <h3>Авто быстрое</h3>
+        <div class="term">15–22 дня</div>
+        <div class="price">от 1,4 $ <span>/ кг</span></div>
+      </div>
+      <div class="dcard reveal">
+        <div class="ico">🚀</div>
+        <h3>Авто экспресс</h3>
+        <div class="term">8–13 дней</div>
+        <div class="price">от 1,8 $ <span>/ кг</span></div>
+      </div>
+      <div class="dcard reveal">
+        <div class="ico">✈️</div>
+        <h3>Авиа</h3>
+        <div class="term">2–7 дней</div>
+        <div class="price">от 8 $ <span>/ кг</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEAD FORM -->
+<section id="lead">
+  <div class="wrap">
+    <div class="cta-form reveal">
+      <div>
+        <div class="eyebrow">Бесплатная консультация</div>
+        <h2>Закажите доставку вашего груза уже сейчас</h2>
+        <p style="color:var(--muted);font-size:16px">Заполните форму — наши специалисты бесплатно рассчитают стоимость и сроки по вашему грузу.</p>
+        <ul>
+          <li>Полный расчёт в рублях за 1 рабочий день</li>
+          <li>Подбор оптимального способа доставки</li>
+          <li>Поиск поставщика по 5 критериям — по желанию</li>
+          <li>Сопровождение одним менеджером от и до</li>
+        </ul>
+      </div>
+      <div class="form-card">
+        <form id="leadForm">
+          <div class="two">
+            <div class="field"><label for="field-name">Имя</label><input type="text" autocomplete="name" maxlength="100" id="field-name" name="name" placeholder="Ваше имя" required></div>
+            <div class="field"><label for="field-phone">Телефон</label><input type="tel" autocomplete="tel" minlength="7" maxlength="30" id="field-phone" name="phone" placeholder="+7 ___ ___ __ __" required></div>
+          </div>
+          <div class="field"><label for="field-product">Название товара</label><input type="text" maxlength="300" id="field-product" name="product" placeholder="Что везём?"></div>
+          <div class="two">
+            <div class="field"><label for="field-weight">Вес, кг</label><input type="number" min="0.01" step="0.01" inputmode="decimal" id="field-weight" name="weight" placeholder="напр. 500"></div>
+            <div class="field"><label for="field-volume">Объём, м³</label><input type="number" min="0.001" step="0.001" inputmode="decimal" id="field-volume" name="volume" placeholder="напр. 2"></div>
+          </div>
+          <div class="field"><label for="field-link">Ссылка на товар</label><input type="url" id="field-link" name="link" placeholder="Вставьте ссылку (1688, Taobao, Pinduoduo и др.)"></div>
+          <div class="field"><label for="field-method">Способ доставки</label>
+            <select id="field-method" name="method">
+              <option>Подберите оптимальный</option>
+              <option>Ж/Д (35–40 дней)</option>
+              <option>Авто обычное (25–30 дней)</option>
+              <option>Авто быстрое (15–22 дня)</option>
+              <option>Авто экспресс (8–13 дней)</option>
+              <option>Авиа (2–7 дней)</option>
+            </select>
+          </div>
+          <fieldset class="field contact-field"><legend>Как с вами связаться?</legend>
+            <div class="radios">
+              <label><input type="radio" name="contact" value="Звонок" checked>📞 Звонок</label>
+              <label><input type="radio" name="contact" value="Сообщение">💬 Сообщение</label>
+            </div>
+          </fieldset>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Получить расчёт →</button>
+          <p class="note">Форма подготовит текст заявки. Отправьте его менеджеру в Telegram или по почте. Время работы: 9:00–21:00.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Как мы работаем</div>
+      <h2 class="sec-title">Процесс доставки — 4 простых шага</h2>
+      <p class="sec-sub">Вы оставляете заявку — дальше всё берём на себя. Прозрачно и под ключ.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="n">01</div>
+        <h3>Заявка и поиск поставщика</h3>
+        <p>Оставляете заявку через менеджера. При необходимости находим поставщика по вашему товару.</p>
+      </div>
+      <div class="step reveal">
+        <div class="n">02</div>
+        <h3>Инвойс и расчёт в рублях</h3>
+        <p>Получаем инвойс у поставщика, делаем полный расчёт в рублях. Товар едет на наш склад.</p>
+      </div>
+      <div class="step reveal">
+        <div class="n">03</div>
+        <h3>Оплата и упаковка</h3>
+        <p>Наличный или безналичный расчёт. На складе — проверка, экспортная упаковка, при необходимости переупаковка.</p>
+      </div>
+      <div class="step reveal">
+        <div class="n">04</div>
+        <h3>Доставка в срок</h3>
+        <p>Доставляем в любую точку России в обозначенные сроки. За день до прибытия предупредим о получении.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GUARANTEES -->
+<section id="guarantees">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Почему нам доверяют</div>
+      <h2 class="sec-title">Гарантии и прозрачная оплата</h2>
+      <p class="sec-sub">Мы убираем главные страхи при работе с Китаем: «придёт ли товар», «будет ли брак», «когда платить».</p>
+    </div>
+    <div class="guar-grid">
+      <div class="gitem reveal">
+        <div class="gi">🔍</div>
+        <div><h3>Проверка на брак и пересчёт</h3><p>Перед отправкой проверяем товар на соответствие и качество, пересчитываем количество. Вы получаете то, что заказали.</p></div>
+      </div>
+      <div class="gitem reveal">
+        <div class="gi">📝</div>
+        <div><h3>Официальный договор</h3><p>При необходимости заключаем договор поставки и купли-продажи. Полное документальное оформление при пересечении границы.</p></div>
+      </div>
+      <div class="gitem reveal">
+        <div class="gi">⏰</div>
+        <div><h3>Точно в срок</h3><p>80% грузов приходят раньше срока, 100% — точно в срок. Соблюдаем заявленные даты доставки.</p></div>
+      </div>
+      <div class="gitem reveal">
+        <div class="gi">🛡</div>
+        <div><h3>Страхование и упаковка</h3><p>Все виды упаковки для безопасной перевозки: обрешётка, влагозащита. По желанию — страховка груза.</p></div>
+      </div>
+    </div>
+
+    <h3 class="disp reveal" style="font-size:20px;margin:46px 0 0;text-align:center">Этапы оплаты — без рисков для вас</h3>
+    <div class="pay">
+      <div class="p reveal"><div class="c">1</div><h4>Заявка</h4><span>Бесплатный расчёт в рублях, без обязательств</span></div>
+      <div class="p reveal"><div class="c">2</div><h4>Оплата товара</h4><span>Наличный или безналичный расчёт за товар у поставщика</span></div>
+      <div class="p reveal"><div class="c">3</div><h4>Проверка</h4><span>Контроль качества и пересчёт на складе перед отправкой</span></div>
+      <div class="p reveal"><div class="c">4</div><h4>Оплата доставки</h4><span>Всегда по прибытии груза на наш склад в Москве</span></div>
+    </div>
+    <p style="text-align:center;color:var(--muted);font-size:13px;margin-top:18px">Доставку вы оплачиваете только после того, как груз прибудет на наш склад в Москве.</p>
+  </div>
+</section>
+
+<!-- STATS BAND -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="band reveal">
+      <div class="b"><b class="grad-text">8</b><span>лет опыта</span><small>Огромный опыт в логистике и карго-перевозках. Свои склады в Москве и Китае.</small></div>
+      <div class="b"><b class="grad-text">80%</b><span>раньше срока</span><small>80% груза приходит раньше времени, 100% — точно в срок.</small></div>
+      <div class="b"><b class="grad-text">3</b><span>страны доставки</span><small>Россия (со склада в Москве по всей стране), а также Казахстан и Беларусь.</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Отзывы клиентов</div>
+      <h2 class="sec-title">Нам доверяют свой груз</h2>
+      <p class="sec-sub">Рейтинг 4.5 на Яндекс.Картах по 10 оценкам. Ниже — реальные отзывы наших клиентов.</p>
+    </div>
+    <div class="revs">
+      <div class="rev reveal">
+        <div class="stars">★★★★★</div>
+        <p>«Партнёрские отношения с этой компанией продолжаются уже несколько лет, и каждый раз они подтверждают репутацию надёжного логистического партнёра. Выгодный курс юаня помогает сократить расходы, а компания берёт на себя полную ответственность за груз. Рекомендуем для стабильных и безопасных поставок.»</p>
+        <div class="who"><div class="av">Т</div><div><b>Татьяна</b><span>постоянный клиент · Яндекс.Карты</span></div></div>
+      </div>
+      <div class="rev reveal">
+        <div class="stars">★★★★★</div>
+        <p>«Работаем с CargoChina765 уже не первый раз, и каждый раз всё чётко и без лишних нервов. Ребята всегда на связи, подробно объясняют все этапы. Отдельно отмечу проверку поставщиков — реально помогли избежать ошибок и лишних затрат. Груз пришёл в срок, без проблем на таможне.»</p>
+        <div class="who"><div class="av">К</div><div><b>Ксения Ковалева</b><span>отзыв на Яндекс.Картах</span></div></div>
+      </div>
+      <div class="rev reveal">
+        <div class="stars">★★★★★</div>
+        <p>«Помогли решить сложную ситуацию с поставщиком. У него возникли задержки, мы опаздывали по срокам. Менеджер Андрей сразу предложил варианты и пересчитал логистику. В итоге груз пришёл всего на 3 дня позже плана — при задержке у поставщика почти в 2 недели! Теперь только к вам.»</p>
+        <div class="who"><div class="av">К</div><div><b>Клиент</b><span>отзыв на Яндекс.Картах</span></div></div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:34px" class="reveal">
+      <a href="https://yandex.ru/profile/95842672539" target="_blank" rel="noopener" class="btn btn-ghost">Все отзывы на Яндекс.Картах →</a>
+    </div>
+  </div>
+</section>
+
+<!-- SUPPLIER -->
+<section id="supplier" style="background:var(--bg-2)">
+  <div class="wrap" style="text-align:center;max-width:760px">
+    <div class="reveal">
+      <div class="eyebrow" style="justify-content:center">Дополнительно</div>
+      <h2 class="sec-title" style="margin-left:auto;margin-right:auto">Нужен поставщик? Найдём за вас</h2>
+      <p class="sec-sub" style="margin-left:auto;margin-right:auto">Пришлите данные товара — проведём поиск поставщиков по 5 критериям, подготовим файл с лучшими вариантами и отправим вам на почту или в Telegram.</p>
+      <a href="https://t.me/CargoChina765" target="_blank" rel="noopener" class="btn btn-gold">Написать менеджеру в Telegram</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER / CONTACTS -->
+<footer id="contacts">
+  <div class="wrap foot">
+    <div>
+      <a href="#" class="logo" style="margin-bottom:16px"><span class="mark">765</span><span class="txt">Китай Логистика<small>CARGO · CHINA → RUSSIA</small></span></a>
+      <p style="color:var(--muted);max-width:340px">Выкуп, поиск поставщиков и доставка грузов из Китая в Россию, Казахстан и Беларусь. Под ключ, с проверкой и документами.</p>
+      <div class="socs">
+        <a href="https://t.me/CargoChina765" target="_blank" rel="noopener">TG</a>
+        <a href="https://vk.com/cargochina765" target="_blank" rel="noopener">VK</a>
+        <a href="https://yandex.ru/profile/95842672539" target="_blank" rel="noopener">Я</a>
+        <a href="mailto:logistic-company.pro@yandex.ru">@</a>
+      </div>
+    </div>
+    <div>
+      <h4>Навигация</h4>
+      <a href="#delivery">Виды доставки</a>
+      <a href="#process">Как мы работаем</a>
+      <a href="#guarantees">Гарантии</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#lead">Рассчитать доставку</a>
+    </div>
+    <div>
+      <h4>Контакты</h4>
+      <a href="tel:+79263039500" class="grad-text disp" style="font-size:22px;margin-bottom:12px">+7 (926) 303-95-00</a>
+      <a href="mailto:logistic-company.pro@yandex.ru">logistic-company.pro@yandex.ru</a>
+      <p class="wh">Время работы: 9:00 — 21:00, ПН–СБ</p>
+      <h4 style="margin-top:20px">Склады в Китае</h4>
+      <p style="font-size:13px;color:var(--muted)"><b style="color:#dbe2f2">Иу:</b> № 1117, Юнцзюнь-роуд, г. Иу, г. Цзиньхуа, пров. Чжэцзян, грузовая линия (765), г-н Чжан</p>
+      <p style="font-size:13px;color:var(--muted)"><b style="color:#dbe2f2">Гуанчжоу:</b> Фошань, р-н Нанхай, г. Лишуй, дер. Чжоу, складской парк «Да Гуань Цзя», корп. B1, склад № 765</p>
+    </div>
+  </div>
+  <div class="wrap copy">
+    <span>© <span id="year"></span> Китай Логистика 765. Все права защищены.</span>
+    <a href="https://logistic-company.pro/" target="_blank" rel="noopener" style="color:var(--muted)">Демонстрационная версия · действующий сайт ↗</a>
+  </div>
+</footer>
+
+<!-- FLOATING -->
+<div class="fab">
+  <a href="https://t.me/CargoChina765" target="_blank" rel="noopener" class="tg" title="Telegram">TG</a>
+  <a href="https://wa.me/79911005668" target="_blank" rel="noopener" class="wa" title="WhatsApp">WA</a>
+</div>
+
+
+
+<dialog id="request-dialog" aria-labelledby="request-title">
+  <div class="dialog-content">
+    <button type="button" class="dialog-close" aria-label="Закрыть окно">×</button>
+    <div class="eyebrow">Ваш запрос подготовлен</div>
+    <h2 id="request-title">Отправьте заявку менеджеру</h2>
+    <p>Проверьте текст. Заявка ещё не отправлена.</p>
+    <label for="request-text">Текст заявки</label>
+    <textarea id="request-text" rows="9"></textarea>
+    <div class="dialog-actions">
+      <a id="telegram-request" class="btn btn-primary" href="https://t.me/CargoChina765" target="_blank" rel="noopener">Открыть Telegram →</a>
+      <button type="button" id="copy-request" class="btn btn-ghost">Скопировать текст</button>
+      <a id="email-request" class="btn btn-ghost" href="mailto:logistic-company.pro@yandex.ru">Отправить по почте</a>
+    </div>
+    <p id="copy-status" role="status"></p>
+  </div>
+</dialog>
+
+</body>
+</html>
