@@ -340,7 +340,7 @@ h2{font-size:33px;letter-spacing:-1px}
 .quote-layout{display:block}
 .quote-copy h2{font-size:39px}
 .quote-copy>p:not(.eyebrow){font-size:17px;max-width:100%;margin-bottom:28px}
-.quote-copy h2 br{display:none}
+.quote-copy h2 br{display:initial}
 .quote-contact{display:none}
 .form-grid{gap:15px 12px}
 form label,legend{font-size:15px}
